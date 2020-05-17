@@ -1,23 +1,57 @@
 
+body {
+	font-size: 10px;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+h1 {
+	font-size: 4em;
+	margin: 0px;
+}
+
+p {
+	font-size: 2em;
+}
+
+img {
+	float: left;
+}
+
 nav {
 	text-align: center;
-	font-size: 75%;
 	padding: .2em;
-	font-stretch: ultra-expanded;
+	font-family: 'Share Tech Mono', monospace;
+	font-weight: bold;
+	font-size: 1.15em;
 }
 
 nav ul {
 	padding: 0;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	list-style-type: none;
 }
 
 nav li a{
-	font-family: sans-serif;
-	font-weight: bold;
+	text-decoration: none;
+	padding:1em;
 }
 
 .intro {
-    
+	margin-left: 33%;
+	line-height: 1.5;
 }
+
+.hobbies {
+	margin-left: 33%;
+	line-height: 1.5;
+}
+
+.hobbies ul {
+	font-size: 150%;
+}
+
+.title {
+	font-size: 65%;
+}
+
