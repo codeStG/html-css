@@ -1,12 +1,19 @@
 
 body {
+	color: whitesmoke;
 	font-size: 10px;
 	font-family: 'Share Tech Mono', monospace;
+	background-image: url("ubuntu.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	line-height: 1.5;
 }
 
 h1 {
 	font-size: 4em;
-	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 p {
@@ -15,10 +22,21 @@ p {
 
 img {
 	float: left;
+	padding-top: 1px;
+	padding-right: 25px;
+	margin-left: 1.66%;
+}
+
+hr {
+	display: inline-block;
+	width: 52%;
+	text-align: left;
+	margin-top: 5em;
 }
 
 nav {
-	text-align: center;
+	margin-left: 1.66%;
+	text-align: left;
 	padding: .2em;
 	font-family: 'Share Tech Mono', monospace;
 	font-weight: bold;
@@ -28,23 +46,37 @@ nav {
 nav ul {
 	padding: 0;
 	display: flex;
-	justify-content: center;
 	list-style-type: none;
 }
 
 nav li a{
+	color: whitesmoke;
 	text-decoration: none;
-	padding:1em;
+	padding: 1em;
+}
+
+nav li a:hover{
+	color: darkslategray;
 }
 
 .intro {
-	margin-left: 33%;
-	line-height: 1.5;
+	background-color: darkslategray;
+	opacity: 50%;
+	border: 3px solid black;
+	margin-left: 332px;
+	margin-right: 25%;
 }
 
+
 .hobbies {
-	margin-left: 33%;
-	line-height: 1.5;
+	width: 20%;
+	background-color: darkslategray;
+	opacity: 50%;
+	margin-left: 53%;
+	margin-right: 25%;
+	margin-top: 2%;
+	border: 3px solid black;
+	padding: 10px;
 }
 
 .hobbies ul {
