@@ -1,0 +1,86 @@
+nav {
+	text-align: left;
+	padding: .2em;
+	font-family: 'Share Tech Mono', monospace;
+	font-weight: bold;
+	font-size: 1.15em;
+}
+
+nav ul {
+	padding: 0;
+	display: flex;
+	list-style-type: none;
+}
+
+nav li a{
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 1em;
+}
+
+nav li a:hover{
+	color: darkslategray;
+}
+
+body {
+    margin-left: 1.66%;
+	color: whitesmoke;
+	font-size: 10px;
+	font-family: 'Share Tech Mono', monospace;
+	background-image: url("ubuntu.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	line-height: 1.5;
+}
+
+h1 {
+    width: 50%;
+    text-align: center;
+    margin-top: 0px;
+	margin-bottom: 0px;
+    margin-left: 1.66%;
+	font-size: 4em;
+}
+
+hr {
+    display: inline-block;
+    width: 52%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+  }
+
+input select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid black; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px;  /* Add a top margin */
+    margin-bottom: 16px; /*Add a Bottom margin */
+    margin-right: 50%;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type="submit"] {
+    width: 20%;
+  }
+
+  input {
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+
+  .container {
+    width: 50%;
+    font-size: 2em;
+    border-radius: 5px;
+    background-color: darkslategray;
+    opacity: 80%;
+    padding: 20px;
+    margin-top: 10px;
+  }

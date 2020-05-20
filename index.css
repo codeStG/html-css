@@ -1,0 +1,90 @@
+nav {
+	margin-left: 1.66%;
+	text-align: left;
+	padding: .2em;
+	font-family: 'Share Tech Mono', monospace;
+	font-weight: bold;
+	font-size: 1.15em;
+}
+
+nav ul {
+	padding: 0;
+	display: flex;
+	list-style-type: none;
+}
+
+nav li a{
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 1em;
+}
+
+nav li a:hover{
+	color: darkslategray;
+}
+
+body {
+	color: whitesmoke;
+	font-size: 10px;
+	font-family: 'Share Tech Mono', monospace;
+	background-image: url("ubuntu.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 4em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p {
+	font-size: 2em;
+}
+
+img {
+	border-radius: 20px;
+	float: left;
+	padding-top: 1px;
+	margin-left: 1.66%;
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	background-color: darkslategray;
+	opacity: 50%;
+	border: 3px solid black;
+	margin-left: 335px;
+	margin-right: 25%;
+	padding: 10px;
+}
+
+
+.hobbies {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	background-color: darkslategray;
+	opacity: 50%;
+	margin-left: 53.5%;
+	margin-right: 25%;
+	margin-top: 2%;
+	border: 3px solid black;
+	padding: 10px;
+}
+
+.hobbies ul {
+	font-size: 150%;
+}
+
+.title {
+	font-size: 65%;
+}
+
+/*.container {
+	display: flex;
+	justify-content: center;
+}*/
